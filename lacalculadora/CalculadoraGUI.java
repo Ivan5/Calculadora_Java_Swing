@@ -77,6 +77,8 @@ public class CalculadoraGUI extends javax.swing.JFrame {
         jButton19 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Calculadora");
+        setResizable(false);
 
         jButton1.setText("1");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
